@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+}
+
+@media (max-width: 500px) {
+  #passbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  button{
+    width: 30%;
+    align-self: center;
+  }
+}
